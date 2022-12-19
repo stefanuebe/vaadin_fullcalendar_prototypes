@@ -1,0 +1,19 @@
+:root {
+    --fc-border-color: green;
+}
+
+.fc a[data-navlink] {
+    --lumo-body-text-color: green;
+}
+
+:root .fc[theme="dark"] {
+    --fc-border-color: lawngreen;
+}
+
+.fc[theme="dark"] a:not(:any-link) {
+    --lumo-body-text-color: orange;
+}
+
+.fc[theme="dark"] a[data-navlink] {
+    --lumo-body-text-color: lawngreen;
+}
